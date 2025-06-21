@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a {
+    text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+img {
+    vertical-align: middle;
+}
+clr {
+    clear: both;
+}
+.full-wrapper {
+    width: 100%;
+}
+.wrapper {
+    width: 1114px;
+    margin: 0 auto;
+}
+.logo {
+    width: 114px;
+    float: left;
+    height: 60px;
+}
+.menu-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.menu {
+    text-align: right;
+    width: 1000px;
+}
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a {
+    line-height: 60px;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'News Cycle', sans-serif;
+    padding: 0 30px;
+    display: block;
+}
+.menu ul li a:hover {
+    color: blue;
+}
+.menu ul li ul {
+    position: absolute;
+    width: 250px;
+    left: -60px;
+    visibility: hidden;
+    text-align: center;
+}
+.menu ul li:hover > ul {
+    visibility: visible;
+}
+.menu ul li ul li {
+    width: 100%;
+}
+.menu ul li ul li a:hover {
+    background: gray;
+}
+.menu ul li ul li ul {
+    position: absolute;
+    width: 110px;
+    left: 100%;
+    top: 0;
+}
+.banner {
+    background: url(../images/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 300px 0;
+    position: relative;
+}
+.banner:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+}
+h2{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+.h2:before {
+    position: absolute;
+    content: '';
+}
+.service {
+    padding: 65px 0;
+}
+.service-item {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.service-icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.icon-left {
+    width: 50px;
+    height: 100px;
+    background: #6c6ceb;
+    float: left;
+}
+.icon-right {
+    width: 50px;
+    height: 100px;
+    background: #1818a3;
+    float: left;
+}
+.service-icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: #fff;
+}
+.service-item h3 {
+    padding-top: 30px;
+    color: #2d3950;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.service-item p {
+    padding: 0 40px;
+    padding-top: 22px;
+    color: #5d5252;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+.gallery-bg {
+    padding-top: 80px;
+    background: #fff;
+    padding-bottom: 115px;
+}
+.gallery-head {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.gallery-head h2 {
+    font-size: 41px;
+    font-family: 'News Cycle', sans-serif; 
+    color: #2d3950;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.gallery-head p {
+    font-size: 15px;
+    font-family: 'News Cycle', sans-serif; 
+    color: #909090;
+    font-weight: 400;
+}
+.gallery-item {
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.gallery-item img {
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: rgba(44, 172, 248,0.75);
+    text-align: center;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.overlay i {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+} 
+.gallery-item:hover .overlay{
+    opacity: 1;
+    height: 100%;
+}
+.mr {
+    margin-right: 0;
+}
+.vedio-bg {
+    background: #f5f1f1;
+}
+.eight {
+    margin-top: 50px;
+    text-align: center;
+}
+.nine {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.form-bg {
+    background: #fff;
+}
+.ten {
+    margin: 0 auto;
+    text-align: center;
+}
+.ten1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.futter {
+    width: 1114px;
+    height: 50px;
+    margin-top: 10px;
+    background: #d8c3c3;
+    text-align: center;
+}
