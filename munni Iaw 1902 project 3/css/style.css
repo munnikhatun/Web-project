@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.full-wrapper {
+    width: 100%;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    width: 270px;
+}
+.logo img {
+    padding-top: 30px;
+}
+.menu {
+    float: left;
+    width: 900px;
+    height: 100px;
+    text-align: right;   
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    line-height: 100px;
+    padding: 0 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+}
+.menu ul li a:hover {
+    background: darkblue;
+}
+.banner-bg {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-text {
+    padding-top: 140px;
+    padding-bottom: 145px;
+    text-align: center;
+}
+.banner-text h1 {
+    font-size: 63px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 27px;
+}
+.banner-text p {
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 385px;
+    padding-bottom: 60px;
+}
+.banner-text a {
+    border: 3px solid #fff;
+    padding: 22px 42px;
+    border-radius: 3px;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.service {
+    padding-top: 105px;
+    padding-bottom: 100px;
+}
+.service-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.service-icon {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #49cbcd;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+.service-icon i {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: #49cbcd;
+}
+.service-item h3 {
+    padding-top: 50px;
+    padding-bottom: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #4e525d;
+    text-align: center;
+}
+.service-item p {
+    padding-top: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #4e525d;
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 30px;
+}
+.service-item a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 16px;
+    background: #49cbcd;
+    border-radius: 3px;
+}
+.gallery-bg {
+    background: #f1f1f1;
+    padding-top: 50px;
+    padding-bottom: 125px;
+}
+.gallery-head h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: #4e525d;
+    padding-bottom: 65px;
+}
+.gallery-item {
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.gallery-item img {
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(44, 172, 248, 0.65);
+    opacity: 0;
+    transform: all linear .3s;
+}
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+.mr {
+    margin-right: 0;
+}
+.gallery {
+    text-align: center;
+    padding-top: 52px;
+    
+}
+.gallery a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 23px;
+    background: #49cbcd;
+    border-radius: 3px;
+}
+.team-head {
+    text-align: center;
+    padding-top: 92px;
+    padding-bottom: 105px;
+}
+.team-head h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: #4e525d;
+}
+.team-iteam {
+    text-align: center;
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+
+.team-item {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.team-img img {
+    border-radius: 50%;
+}
+.team-details h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #4e525d;
+    padding-top: 68px;
+    padding-bottom: 8px;
+}
+.team-details h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4e525d;
+    padding-bottom: 26px;
+}
+.team-details p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4e525d;
+    padding-bottom: 106px;
+}
+.p-bg {
+    background: #f1f1f1;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.price-item {
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+}
+.p-head {
+    text-align: center;
+    background: #485460;
+    line-height: 75px;
+    color: #fff;
+}
+.p-amount {
+    text-align: center;
+    background: #f8f9fb;
+    line-height: 75px; 
+}
+.p-details p {
+    line-height: 45px;
+    text-align: center;
+    border-top: 1px solid #ecf0f1;
+    background: #fff;
+}
+.buy {
+    text-align: center;
+    line-height: 100px;
+    background: #f8f9fb;
+}
+.buy a {
+    padding: 12px 50px;
+    background: #788492;
+    color: #fff;
+    border-radius: 5px;
+}
+.mr {
+    margin-right: 0;
+}
+.price-item:hover .p-head {
+    background: #49cbcd;
+}
+.price-item:hover .buy a {
+    background: #49cbcd;
+}
+.simple {
+    padding-top: 146px;
+    padding-bottom: 105px;
+    text-align: center;
+    position: relative;
+}
+.simple h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: #4e525d;
+    padding-bottom: 35px; 
+}
+.simple-pa p {
+    display: inline-block;
+    text-align: center;
+}
+.simple-pa p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #4e525d;
+    padding: 0 250px;
+}
+.simple-pa h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #9a8faf;
+    padding-top: 38px;  
+}
+.simple-pa i:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 25px;
+    color: #c0c0c0;
+}
+.simple-pa h6 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 25px;
+    color: #c0c0c0;
+}
+.footer-bg {
+    background: url(../images/footer1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+.footer-head {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.footer-head h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 110px;
+}
+.footer-left {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.footer-left h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.footer-left p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #adadad;
+    padding: 0 50px;
+    padding-bottom: 40px;
+}
+.footer-left a i {
+    width: 43px;
+    height: 43px;
+    background: #3b5997;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    top: 50%;
+    left: 0;
+}
+.footer-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bface2;
+    padding-top: 20px
+    padding-bottom: 12px;
+}
+.footer-right {
+    width: 50%;
+    text-align: right;
+    float: left;
+}
+.footer-right input {
+    width: 250px;
+    height: 35px;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.footer-right textarea {
+    width: 520px;
+    height: 150px;
+    background: #fff;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+.send {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.footer-right buttom a {
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    background: #49cbcd;
+    border-radius: 3px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 10px;
+    padding: 20px 75px;
+}
+
+
+
+
+
+
+
